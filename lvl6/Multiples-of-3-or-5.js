@@ -12,6 +12,5 @@ function solution(number){
       arr.push(i)
     }
   }
-
   return arr.reduce((acc, val) => acc + val)
 }
